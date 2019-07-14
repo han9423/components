@@ -1,0 +1,29 @@
+@import "./opinion.scss";
+@import "../../../stylesheet/mixin.scss";
+
+$prefix: m-gradientsFont;
+
+.#{$prefix}-default {
+  display: inline-block;
+  background-clip: text;
+  z-index: $gradientsFont-level;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: $gradientsFont-font-weight;
+}
+
+.#{$prefix}-size-normal {
+  font-size: $gradientsFont-normal-font-size;
+}
+
+.#{$prefix}-size-small {
+  font-size: $gradientsFont-small-font-size;
+}
+
+.#{$prefix}-size-large {
+  font-size: $gradientsFont-large-font-size;
+}
+
+.#{$prefix}-size-title {
+  font-size: $gradientsFont-title-font-size;
+}

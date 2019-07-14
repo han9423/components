@@ -1,0 +1,19 @@
+.m-gradientsFont-default {
+  display: inline-block;
+  background-clip: text;
+  z-index: 0;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600; }
+
+.m-gradientsFont-size-normal {
+  font-size: 20px; }
+
+.m-gradientsFont-size-small {
+  font-size: 14px; }
+
+.m-gradientsFont-size-large {
+  font-size: 24px; }
+
+.m-gradientsFont-size-title {
+  font-size: 34px; }
